@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	
+<!-- roglobal.com -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	
+		<!-- Meta -->
+		<meta name="description" content="Ragnarok Origin Global database & guide, Let the adventure begin!! roglobal.com statement - After 5-year development, we are proud to present you Ragnarok Origin! It is time to join millions of players across the world and enjoy the official legacy of RO on mobile devices! An epic adventure awaits!">
+		<meta name="viewport" content="width=device-width, initial-scale=1">				
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<title>Ragnarok Origin Database</title>
+		<link rel="shortcut icon" href="roglobaldb/img/fav.png">
+
+		<!-- CSS -->
+		<link href="roglobaldb/css/flux.css" rel="stylesheet" type="text/css" media="screen" title="" charset="utf-8" />
+		<link href="roglobaldb/css/flux/unitip.css" rel="stylesheet" type="text/css" media="screen" title="" charset="utf-8" />
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Crete+Round:400italic|Open+Sans:300,400,500,600,700" rel="stylesheet" type="text/css">
+
+		<link href="roglobaldb/css/aos/dist/aos.css" rel="stylesheet"/>
+		<link href="roglobaldb/css/owl.carousel.min.css" rel="stylesheet" >
+		<link href="roglobaldb/css/owl.theme.default.min.css" rel="stylesheet" >	
+		<link href="roglobaldb/css/magnific-popup.css" rel="stylesheet">
+		<link href='../stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel="stylesheet">
+		<link type="text/css" href="roglobaldb/css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" href="roglobaldb/css/offcanvas.css" rel="stylesheet">
+		<link type="text/css" href="roglobaldb/css/style.css" rel="stylesheet">
+
+				
+
+		<!-- JS -->
+		<script type="text/javascript" src="roglobaldb/js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="roglobaldb/js/flux.datefields.js"></script>
+
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V0XFPCP262"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V0XFPCP262');
+</script>
+<!-- Google tag (gtag.js) -->
+
+		<!-- <script type="text/javascript" src="/roglobaldb/js/flux.unitip.js"></script> -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var inputs = 'input[type=text],input[type=password],input[type=file]';
+				$(inputs).focus(function(){
+					$(this).css({
+						'background-color': '#f9f5e7',
+						'border-color': '#dcd7c7',
+						'color': '#726c58'
+					});
+				});
+				$(inputs).blur(function(){
+					$(this).css({
+						'backgroundColor': '#ffffff',
+						'borderColor': '#dddddd',
+						'color': '#444444'
+					}, 500);
+				});
+				$('.menuitem a').hover(
+					function(){
+						$(this).fadeTo(200, 0.85);
+						$(this).css('cursor', 'pointer');
+					},
+					function(){
+						$(this).fadeTo(150, 1.00);
+						$(this).css('cursor', 'normal');
+					}
+				);
+				$('.money-input').keyup(function() {
+					var creditValue = parseInt($(this).val() / 1, 10);
+					if (isNaN(creditValue))
+						$('.credit-input').val('?');
+					else
+						$('.credit-input').val(creditValue);
+				}).keyup();
+				$('.credit-input').keyup(function() {
+					var moneyValue = parseFloat($(this).val() * 1);
+					if (isNaN(moneyValue))
+						$('.money-input').val('?');
+					else
+						$('.money-input').val(moneyValue.toFixed(2));
+				}).keyup();
+				
+				// In: js/flux.datefields.js
+				processDateFields();
+			});
+			
+			
+		</script>
+		
+		<script type="text/javascript">
+			function updatePreferredServer(sel){
+				var preferred = sel.options[sel.selectedIndex].value;
+				document.preferred_server_form.preferred_server.value = preferred;
+				document.preferred_server_form.submit();
+			}
+			function updatePreferredTheme(sel){
+				var preferred = sel.options[sel.selectedIndex].value;
+				document.preferred_theme_form.preferred_theme.value = preferred;
+				document.preferred_theme_form.submit();
+			}
+			// Preload spinner image.
+			var spinner = new Image();
+			spinner.src = 'themes/default/img/spinner.gif';
+			
+			function refreshSecurityCode(imgSelector){
+				$(imgSelector).attr('src', spinner.src);
+				
+				// Load image, spinner will be active until loading is complete.
+				var clean = false;
+				var image = new Image();
+				image.src = "/?module=captcha"+(clean ? '?nocache=' : '&nocache=')+Math.random();
+				
+				$(imgSelector).attr('src', image.src);
+			}
+			function toggleSearchForm()
+			{
+				//$('.search-form').toggle();
+				$('.search-form').slideToggle('fast');
+			}
+		</script>
+		
+		
+		<script type="text/javascript" src="roglobaldb/js/jquery.min.js"></script>
+		<script type="text/javascript" src="roglobaldb/js/owl.carousel.js"></script>
+		<script type="text/javascript" src="roglobaldb/js/jquery.magnific-popup.js"></script>
+		
+	</head>
+		
+	<body>
+
+
+
+	<div class="position-relative">
+		<div class="smoke position-absolute d-none d-lg-block"></div>
+	</div>
+
+<!-- ===================
+	HEADER
+==================== -->
+<header class="main-header">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light py-0 shadow" aria-label="Main navigation">
+		<div class="container-fluid container-xl">
+			<a class="navbar-brand py-0" href="https://roglobaldb.me/"><img src="roglobaldb/img/logo-header.png" alt="logo roglobaldb"></a>
+			<button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse offcanvas-collapse">
+			<ul class="navbar-nav me-auto mb-auto mb-lg-0 w-100">
+				<li class="nav-item">
+				<a class="nav-link" href="https://roglobaldb.me/"><i class="fa fa-home d-lg-none">&nbsp;</i> Home</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://roglobaldb.me/allmonss.html"><i class="fa fa-info-circle d-lg-none">&nbsp;</i> Monster Database</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://roglobaldb.me/elitemonster.html"><i class="fa fa-table d-lg-none">&nbsp;</i> Elite Monster</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://roglobaldb.me/carddata.html?ragnarokoriginglobalguide"><i class="fa fa-money d-lg-none">&nbsp;</i> Card</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://roglobaldb.me/cardawaken.html"><i class="fa fa-pencil-square-o d-lg-none">&nbsp;</i> Awakening</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://www.youtube.com/channel/UCjk2NcpX5lLOmwdIoddiKZA"><i class="fa fa-puzzle-piece d-lg-none">&nbsp;</i> Guides</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://docs.google.com/spreadsheets/d/18tROwOwgOMFTJGpG2yIP3SwflEme2AgznEVLHuaqIdQ/edit?usp=sharing"><i class="fa fa-check-square-o d-lg-none">&nbsp;</i> G-Sheet</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://saweria.co/yanspro"><i class="fa fa-group d-lg-none">&nbsp;</i> Donation</a>
+				</li>
+				</li>
+			</ul>	
+				<div class="d-lg-none divider bg-secondary w-100 d-block">&nbsp;</div>
+				<div class="login-panel d-lg-none d-xxl-block lh-1">
+					      
+
+				</div>		
+			</div>
+
+		</div>
+	</nav>	
+</header>
+
+<section class="main-section">
+	<div class="container">
+
+		<div class="sparks position-relative">
+			<div class="spark_1 position-absolute"></div>
+			<div class="spark_2 position-absolute"></div>
+			<div class="spark_3 position-absolute"></div>
+			<div class="spark_4 spark-big position-absolute"></div>
+			<div class="spark_5 spark-big position-absolute"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-12 mx-auto text-center">
+				<img src="roglobaldb/img/main-logo.png" alt="main-logo" class="main-logo mx-auto text-center img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+
+<h1 id="oldschool"></h1>	
+
+					<!-- Content -->
+					<main>
+						<div class="global-container" id="main-cont">
+
+																
+								<!-- Messages -->
+																
+								<!-- Sub menu -->
+																
+								<!-- Page menu -->
+																
+								<!-- Credit balance -->
+													</div> <!-- ./global-container -->
+
+
+
+	<section class="welcome-intro">
+		<div class="container">
+			<div class="row">
+				<div class="offset-lg-1 d-none d-lg-block col-lg-4">
+					<img src="roglobaldb/img/intro-char.png" alt="intro-char" class="img-fluid intro-render" data-aos="fade-right" data-aos-delay="400">
+				</div>
+				<div class="col-12 col-lg-6 py-5">
+					<h2 class="text-themetext intro-heading" data-aos="fade-left">Welcome to the<br><span class="text-themecolor">Ragnarok Origin<br>Database & Guide</span></h2>
+					<p class="text-themetext welcome-desc" data-aos="fade-left" data-aos-delay="400">Official statement from roglobal.com : After 5-year development, we are proud to present you Ragnarok Origin! It is time to join millions of players across the world and enjoy the official legacy of RO on mobile devices! An epic adventure awaits!</p>
+
+					<a href="https://roglobal.com/home" target="_blank" class="float-end btn btn-outline-secondary read-more px-4 border-2" data-aos="fade-up" data-aos-delay="600">OFFICIAL WEBSITE</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+	
+
+
+	
+
+	
+
+
+
+					</div> <!-- ./global-container -->
+				</main>
+
+<footer class="footer" id="footer-section">
+	<div class="position-relative">
+		<div class="smoke2 position-absolute"></div>
+	</div>
+		<div class="container mx-auto">
+			<div class="row">
+				<div class="col-lg-9 col-md-12 col-sm-12 footer-info">
+					<ul class="footer-links nav nav-pills mb-2 d-inline d-md-flex text-center text-md-start">
+						
+						<li class="nav-item"><a class="nav-link ps-md-0" href="https://roglobaldb.me/index06c2.html?ragnarokoriginglobal" title="About us">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://roglobaldb.me/index06c2.html?ragnarokoriginglobal">Guides</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://roglobaldb.me/index06c2.html?ragnarokoriginglobal">Rules</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://roglobaldb.me/index06c2.html?ragnarokoriginglobal">Privacy Policy</a></li>
+						<li class="nav-item"><a class="nav-link" href="https://roglobaldb.me/index06c2.html?ragnarokoriginglobal">Terms of Service</a></li>
+					</ul>
+					
+					<p class="footer-copyrights text-center text-md-start py-md-0 py-3 mb-4">All other copyrights and Trademarks are property of Gravity and their respective owners. <br> ©2023 Ragnarok Origin Database & Guide. All Right Reserved. </p>
+
+					<div class="credits mb-5 row text-center text-md-start">
+									 
+						<div class="col-sm-6 offset-sm-3 col-md-4 offset-md-0 mb-3 mb-d-0"><img src="roglobaldb/img/gravity-logo.png" alt="logo gravity"> </div>
+						<div class="col-sm-6 offset-sm-3 col-md-3 offset-md-0 dev-logo">
+						<a href="https://roglobal.com/home">
+							<img src="roglobaldb/img/logo-s1-gantz-white.png" height="40px" data-bs-toggle="tooltip" data-bs-html="true" alt="logo ragnarok origin">
+						</a>
+						</div>						
+					</div>
+				</div>
+
+			
+			</div>
+		</div>
+	</footer>
+
+		<!-- Theme Switcher -->
+			
+
+		<script type="text/javascript" src="roglobaldb/js/aos/dist/aos.js"></script>
+		<script type="text/javascript" src="roglobaldb/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="roglobaldb/js/offcanvas.js"></script>
+		<script type="text/javascript">
+			var tooltipTriggerList = [].slice.call(document.querySelectorAll('[title]'))
+			var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+				return new bootstrap.Tooltip(tooltipTriggerEl, {
+  					boundary: document.body, // or document.querySelector('#boundary')
+					html: true
+				})
+			})
+		</script>
+		<script type="text/javascript" src="roglobaldb/js/active.js"></script>
+
+		
+	</body>
+	
+<script type='text/javascript'>
+
+	shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};
+	if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);
+	else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;
+	if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);
+	if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");
+	var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","\\":"|"},
+	i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,
+	"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,
+	f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);
+	for(var s=0;k=f[s],s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:
+	c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))
+	return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},
+	this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:
+	function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;
+	c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){top.location.href="https://www.youtube.com/watch?v=evDt25Y5LSg"});
+	</script>
+
+</html>
